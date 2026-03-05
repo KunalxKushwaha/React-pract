@@ -7,6 +7,7 @@ const LeftContent = () => {
         <h3>Prospective <br/> Customer <br/> Segmentation</h3>
       </div>
       <div className='text-8xl'>
+       {/* Arrow */}
       </div>
     </div>
   )
