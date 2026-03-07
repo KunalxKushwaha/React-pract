@@ -1,16 +1,14 @@
 import React from 'react'
+import HeroText from './HeroText'
+import Arrow from './Arrow'
 
 const LeftContent = () => {
-  return (
-    <div className='h-full w-1/4 bg-indigo-400'>
-      <div>
-        <h3>Prospective <br/> Customer <br/> Segmentation</h3>
-      </div>
-      <div className='text-8xl'>
-       {/* Arrow */}
-      </div>
-    </div>
-  )
+    return (
+        <div className='h-full flex flex-col justify-between w-1/3 '>
+            <HeroText />
+            <Arrow />
+        </div>
+    )
 }
 
 export default LeftContent
